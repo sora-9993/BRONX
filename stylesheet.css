@@ -78,7 +78,7 @@ nav .sticky ul {
 @media screen and (max-width: 670px) {
     body {
         width: 100%;
-        height: 100vh;
+        height: 1500px;
     }
     .logo {
         text-align: center;
