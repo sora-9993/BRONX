@@ -6,22 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BRONX</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
 </head>
 <body>
     <div class="header">
         <nav class="navbar">
-            <h2 class="logo">BRONX</h2>
-            <ul class="menu">
-                <li><a href="#">ホーム</a></li>
-                <li><a href="#">所在地</a></li>
-                <li><a href="#">ブログ</a></li>
-                <li><a href="#">お問い合わせ</a></li>
-            </ul>
-            <p class="text">
-              神楽坂に古くから構えるダイニングバー<br>
-              日中は喫茶店としても営業しており、喫茶店ならではのメニューが並ぶ<br>
-              古き良き空間に腰を据えて、あなただけの時間をゆっくりと。
-            </p>
+            <h3 class="logo">BRONX</h3>
+            <input type="checkbox" id="check" />
+            <label for="check">
+              <i class="fas fa-bars" id="btn"></i>
+              <i class="fas fa-times" id="cancel"></i>
+            </label>
+            <div class="sidebar">
+                <header>お店情報</header>
+                <ul>
+                  <li>
+                    <a href="#"><i class="fas fa-qrcode"></i>ホーム</a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fas fa-link"></i>所在地</a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fas fa-coffee"></i>コーヒ一</a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fas fa-envelope"></i>お問い合わせ</a>
+                  </li>
+                </ul>
+                <h4>BRONX</h4>
+              </div>       
+              <p class="text">
+                神楽坂に古くから構えるダイニングバー<br>
+                日中は喫茶店としても営業しており、喫茶店ならではのメニューが並ぶ<br>
+                古き良き空間に腰を据えて、あなただけの時間をゆっくりと。
+              </p>  
+            </div>
         </nav>
     </div>
     <script src="https://unpkg.com/scrollreveal"></script>
